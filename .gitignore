@@ -1,1 +1,4 @@
 node_modules/
+.vscode/
+src/css/main.css
+.DS_Store

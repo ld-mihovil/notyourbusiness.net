@@ -10,7 +10,10 @@
   },
   "scripts": {
     "dev": "npm-run-all --parallel host watch-tw",
-    "host": "live-server --port=8080 ./src",
+    "host": "live-server --port=926 --host=0.0.0.0 ./src",
     "watch-tw": "postcss styles.css -o src/css/main.css --watch"
+  },
+  "dependencies": {
+    "start": "^5.1.0"
   }
 }
